@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="shoeBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#ECE5D8"/>
+    </linearGradient>
+    <linearGradient id="calfLeather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5A3B24"/>
+      <stop offset="50%" stop-color="#422916"/>
+      <stop offset="100%" stop-color="#2B190C"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#shoeBg)"/>
+  <line x1="40" y1="40" x2="560" y2="40" stroke="#DFD6C7" stroke-width="1"/>
+  <line x1="40" y1="760" x2="560" y2="760" stroke="#DFD6C7" stroke-width="1"/>
+  
+  <g transform="translate(50, 100)">
+    <!-- Loafer Profile -->
+    <path d="M80 340 C100 280, 200 240, 280 250 C360 260, 420 300, 430 350 C435 380, 390 400, 320 405 C200 410, 90 395, 80 340 Z" fill="url(#calfLeather)"/>
+    <path d="M78 350 L85 385 L140 385 L155 365 L370 370 L425 360 L420 345 Z" fill="#BFA892" stroke="#8B735D" stroke-width="1"/>
+    <!-- Saddle Strap -->
+    <path d="M220 255 C230 250, 280 255, 290 270 L285 350 L215 345 Z" fill="#4E311D" stroke="#6B482D" stroke-width="1"/>
+    <rect x="238" y="285" width="34" height="8" rx="2" fill="#2A180B"/>
+    <!-- Hand-stitched Moccasin Apron -->
+    <path d="M200 270 C240 260, 350 280, 385 330" fill="none" stroke="#D4C3B3" stroke-width="1.5" stroke-dasharray="3,3"/>
+  </g>
+  <text x="300" y="775" font-family="'Playfair Display', serif" font-size="12" font-weight="500" fill="#7A6A58" text-anchor="middle" letter-spacing="4">GOODYEAR WELTED PENNY LOAFERS - TUSCAN ESPRESSO</text>
+</svg>

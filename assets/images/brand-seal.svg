@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4C3B3"/>
+      <stop offset="50%" stop-color="#BFA892"/>
+      <stop offset="100%" stop-color="#8C7662"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#D4C3B3" stroke-width="1"/>
+  <circle cx="100" cy="100" r="76" fill="#FBF9F6"/>
+  <!-- Stylized Monogram S and A -->
+  <path d="M100 45 L100 155 M75 70 Q100 50 125 70 Q130 90 100 100 Q70 110 75 130 Q100 150 125 130" fill="none" stroke="#2A2724" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="38" font-family="'Playfair Display', serif" font-size="8" font-weight="600" fill="#8C7662" text-anchor="middle" letter-spacing="3">MAISON SARTOR</text>
+  <text x="100" y="170" font-family="'Playfair Display', serif" font-size="7" font-weight="500" fill="#8C7662" text-anchor="middle" letter-spacing="2">MILANO - 1988</text>
+  <circle cx="100" cy="100" r="4" fill="url(#goldGrad)"/>
+</svg>

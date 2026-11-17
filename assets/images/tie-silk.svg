@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="tieBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="100%" stop-color="#EFE8DC"/>
+    </linearGradient>
+    <linearGradient id="silkBeige" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5D9CC"/>
+      <stop offset="50%" stop-color="#D2C1AF"/>
+      <stop offset="100%" stop-color="#BEAC9A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#tieBg)"/>
+  <line x1="40" y1="40" x2="560" y2="40" stroke="#DFD6C7" stroke-width="1"/>
+  <line x1="40" y1="760" x2="560" y2="760" stroke="#DFD6C7" stroke-width="1"/>
+  
+  <g>
+    <!-- Tie Knot -->
+    <path d="M275 140 L325 140 L320 200 L300 215 L280 200 Z" fill="#C5B3A1" stroke="#A59280" stroke-width="1.5"/>
+    <path d="M295 180 L305 180 L300 210 Z" fill="#8B7968"/>
+    <!-- Tie Blade -->
+    <path d="M285 210 L315 210 L345 620 L300 680 L255 620 Z" fill="url(#silkBeige)" stroke="#A59280" stroke-width="1"/>
+    <!-- Subtle Jacquard Herringbone Lines -->
+    <g stroke="#BAA794" stroke-width="1" opacity="0.55">
+      <line x1="280" y1="260" x2="320" y2="280"/>
+      <line x1="275" y1="320" x2="325" y2="340"/>
+      <line x1="270" y1="380" x2="330" y2="400"/>
+      <line x1="265" y1="440" x2="335" y2="460"/>
+      <line x1="260" y1="500" x2="340" y2="520"/>
+      <line x1="258" y1="560" x2="342" y2="580"/>
+      <line x1="256" y1="620" x2="344" y2="640"/>
+    </g>
+  </g>
+  <text x="300" y="775" font-family="'Playfair Display', serif" font-size="12" font-weight="500" fill="#7A6A58" text-anchor="middle" letter-spacing="4">SEVEN-FOLD MULBERRY SILK TIE - CHAMPAGNE BEIGE</text>
+</svg>

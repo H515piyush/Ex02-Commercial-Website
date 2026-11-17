@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="trouserBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F9F6F0"/>
+      <stop offset="100%" stop-color="#EDE5D7"/>
+    </linearGradient>
+    <linearGradient id="trouserFabric" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DDD1C0"/>
+      <stop offset="50%" stop-color="#CFC1AE"/>
+      <stop offset="100%" stop-color="#BFB09C"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#trouserBg)"/>
+  <line x1="40" y1="40" x2="560" y2="40" stroke="#E0D7C6" stroke-width="1"/>
+  <line x1="40" y1="760" x2="560" y2="760" stroke="#E0D7C6" stroke-width="1"/>
+  
+  <g>
+    <!-- Extended Sartorial Waistband with Side Adjusters -->
+    <path d="M200 120 L400 120 L410 160 L190 160 Z" fill="#C6B7A4" stroke="#B1A18D" stroke-width="1.5"/>
+    <rect x="193" y="132" width="14" height="16" rx="2" fill="#D4C3B3" stroke="#8B7967" stroke-width="1.2"/>
+    <rect x="393" y="132" width="14" height="16" rx="2" fill="#D4C3B3" stroke="#8B7967" stroke-width="1.2"/>
+    
+    <!-- Double Pleats -->
+    <line x1="250" y1="160" x2="245" y2="240" stroke="#A49380" stroke-width="1.5"/>
+    <line x1="270" y1="160" x2="267" y2="220" stroke="#A49380" stroke-width="1.2"/>
+    <line x1="350" y1="160" x2="355" y2="240" stroke="#9B8A77" stroke-width="1.5"/>
+    <line x1="330" y1="160" x2="333" y2="220" stroke="#9B8A77" stroke-width="1.2"/>
+    
+    <!-- Trousers Legs with Elegant Italian Taper -->
+    <path d="M190 160 L210 700 L275 700 L295 340 L305 340 L325 700 L390 700 L410 160 Z" fill="url(#trouserFabric)" stroke="#B8A895" stroke-width="1"/>
+    
+    <!-- Razor-Sharp Front Iron Creases -->
+    <line x1="242" y1="240" x2="242" y2="670" stroke="#FFFFFF" stroke-width="1.2" opacity="0.6"/>
+    <line x1="243" y1="240" x2="243" y2="670" stroke="#9E8D7B" stroke-width="1.2" opacity="0.7"/>
+    <line x1="358" y1="240" x2="358" y2="670" stroke="#FFFFFF" stroke-width="1.2" opacity="0.6"/>
+    <line x1="359" y1="240" x2="359" y2="670" stroke="#8E7E6C" stroke-width="1.2" opacity="0.7"/>
+    
+    <!-- 4.5cm Turn-up Cuffs at Hem -->
+    <rect x="210" y="670" width="65" height="30" fill="#C5B5A3" stroke="#AFA08D" stroke-width="1"/>
+    <rect x="325" y="670" width="65" height="30" fill="#BCA997" stroke="#A59481" stroke-width="1"/>
+  </g>
+  <text x="300" y="775" font-family="'Playfair Display', serif" font-size="12" font-weight="500" fill="#7C6E5E" text-anchor="middle" letter-spacing="4">PLEATED HIGH-RISE TROUSERS - TUSCAN SAND BEIGE</text>
+</svg>

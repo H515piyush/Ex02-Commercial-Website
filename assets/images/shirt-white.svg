@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="shirtBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F5"/>
+      <stop offset="100%" stop-color="#EEE7DC"/>
+    </linearGradient>
+    <linearGradient id="whiteCotton" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FBFBFA"/>
+      <stop offset="100%" stop-color="#F4F1EC"/>
+    </linearGradient>
+    <filter id="shirtShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#302B24" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="600" height="800" fill="url(#shirtBg)"/>
+  <line x1="40" y1="40" x2="560" y2="40" stroke="#E2DACF" stroke-width="1"/>
+  <line x1="40" y1="760" x2="560" y2="760" stroke="#E2DACF" stroke-width="1"/>
+  
+  <g filter="url(#shirtShadow)">
+    <path d="M180 190 L240 130 L360 130 L420 190 L435 680 C435 700, 390 715, 300 715 C210 715, 165 700, 165 680 Z" fill="url(#whiteCotton)" stroke="#E5DFD5" stroke-width="1"/>
+    
+    <!-- Sleeves folded -->
+    <path d="M180 190 L145 450 L195 450 L210 240 Z" fill="#F7F5F0" stroke="#E5DFD5" stroke-width="1"/>
+    <path d="M420 190 L455 450 L405 450 L390 240 Z" fill="#F2EFEB" stroke="#E0DAD0" stroke-width="1"/>
+    
+    <!-- French Cuffs with Gold Cufflinks -->
+    <rect x="135" y="440" width="65" height="28" rx="3" fill="#FFFFFF" stroke="#D8D0C4" stroke-width="1"/>
+    <circle cx="167" cy="454" r="4" fill="#D4C3B3" stroke="#9B846F" stroke-width="1"/>
+    <rect x="400" y="440" width="65" height="28" rx="3" fill="#FFFFFF" stroke="#D8D0C4" stroke-width="1"/>
+    <circle cx="433" cy="454" r="4" fill="#D4C3B3" stroke="#9B846F" stroke-width="1"/>
+    
+    <!-- Semi-Spread Italian Collar -->
+    <path d="M240 130 L300 220 L360 130 L330 115 L270 115 Z" fill="#FFFFFF" stroke="#DDD5C8" stroke-width="1.2"/>
+    <path d="M265 118 L300 205 L235 170 Z" fill="#FFFFFF" stroke="#D5CDC0" stroke-width="1"/>
+    <path d="M335 118 L300 205 L365 170 Z" fill="#F9F8F5" stroke="#D5CDC0" stroke-width="1"/>
+    
+    <!-- Placket and Pearl Buttons -->
+    <rect x="288" y="205" width="24" height="505" fill="#FAF9F6" stroke="#E5DFD5" stroke-width="0.8"/>
+    <circle cx="300" cy="245" r="5" fill="#FCFCFA" stroke="#C5B5A3" stroke-width="1.2"/>
+    <circle cx="300" cy="315" r="5" fill="#FCFCFA" stroke="#C5B5A3" stroke-width="1.2"/>
+    <circle cx="300" cy="385" r="5" fill="#FCFCFA" stroke="#C5B5A3" stroke-width="1.2"/>
+    <circle cx="300" cy="455" r="5" fill="#FCFCFA" stroke="#C5B5A3" stroke-width="1.2"/>
+    <circle cx="300" cy="525" r="5" fill="#FCFCFA" stroke="#C5B5A3" stroke-width="1.2"/>
+    <circle cx="300" cy="595" r="5" fill="#FCFCFA" stroke="#C5B5A3" stroke-width="1.2"/>
+    <circle cx="300" cy="665" r="5" fill="#FCFCFA" stroke="#C5B5A3" stroke-width="1.2"/>
+  </g>
+  <text x="300" y="775" font-family="'Playfair Display', serif" font-size="12" font-weight="500" fill="#7A6D5E" text-anchor="middle" letter-spacing="4">EGYPTIAN GISSA 45 CRISP POPLIN SHIRT - PURE WHITE</text>
+</svg>

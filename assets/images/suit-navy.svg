@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="navyBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8F7F4"/>
+      <stop offset="100%" stop-color="#ECE7DF"/>
+    </linearGradient>
+    <linearGradient id="navyFabric" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#222B38"/>
+      <stop offset="50%" stop-color="#18212D"/>
+      <stop offset="100%" stop-color="#111721"/>
+    </linearGradient>
+    <filter id="navyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#0D121B" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="600" height="800" fill="url(#navyBg)"/>
+  <line x1="40" y1="40" x2="560" y2="40" stroke="#DFD7CB" stroke-width="1"/>
+  <line x1="40" y1="760" x2="560" y2="760" stroke="#DFD7CB" stroke-width="1"/>
+  
+  <g filter="url(#navyShadow)">
+    <path d="M240 110 C270 100, 330 100, 360 110 L380 200 L220 200 Z" fill="#E5DDD2"/>
+    <!-- Crisp White Collar with Silk Tie -->
+    <path d="M270 120 L300 210 L330 120 L315 110 L285 110 Z" fill="#FFFFFF"/>
+    <!-- Beige/Champagne Silk Tie -->
+    <path d="M294 135 L306 135 L309 155 L300 240 L291 155 Z" fill="#D4C3B3" stroke="#B8A28E" stroke-width="0.8"/>
+    
+    <path d="M170 200 L240 120 L360 120 L430 200 L450 480 C440 650, 420 710, 410 720 L190 720 C180 710, 160 650, 150 480 Z" fill="url(#navyFabric)"/>
+    
+    <!-- Sleeves -->
+    <path d="M170 200 L130 460 C125 540, 130 630, 140 680 L195 670 L180 470 L200 230 Z" fill="#1B232E"/>
+    <path d="M430 200 L470 460 C475 540, 470 630, 460 680 L405 670 L420 470 L400 230 Z" fill="#151C25"/>
+    
+    <!-- Modern Notch Lapels -->
+    <path d="M240 120 L220 250 L195 250 L220 310 L300 470 L300 370 Z" fill="#26303E" stroke="#313E4F" stroke-width="1"/>
+    <path d="M360 120 L380 250 L405 250 L380 310 L300 470 L300 370 Z" fill="#1A222C" stroke="#263342" stroke-width="1"/>
+    
+    <!-- Pocket Square in Classic Beige Silk -->
+    <rect x="230" y="310" width="65" height="6" rx="1" fill="#222B38" stroke="#354252" stroke-width="1" transform="rotate(-4 230 310)"/>
+    <path d="M248 308 L262 286 L274 306 Z" fill="#EADBCE" stroke="#BAA591" stroke-width="0.5"/>
+    
+    <!-- Pockets -->
+    <rect x="180" y="540" width="95" height="16" rx="2" fill="#1E2632" stroke="#2C3748" stroke-width="1"/>
+    <rect x="325" y="540" width="95" height="16" rx="2" fill="#161E28" stroke="#25303E" stroke-width="1"/>
+    
+    <!-- Smoked horn buttons -->
+    <circle cx="310" cy="475" r="8" fill="#0D1117" stroke="#D4C3B3" stroke-width="1.2"/>
+    <circle cx="310" cy="550" r="8" fill="#0D1117" stroke="#D4C3B3" stroke-width="1.2"/>
+  </g>
+  <text x="300" y="775" font-family="'Playfair Display', serif" font-size="12" font-weight="500" fill="#756B60" text-anchor="middle" letter-spacing="4">SUPER 150s VENETIAN NAVY SUIT - BESPOKE CUT</text>
+</svg>

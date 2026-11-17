@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="coatBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6EE"/>
+      <stop offset="100%" stop-color="#EBE2D4"/>
+    </linearGradient>
+    <linearGradient id="camelCashmere" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D1A679"/>
+      <stop offset="50%" stop-color="#C29567"/>
+      <stop offset="100%" stop-color="#B08253"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#coatBg)"/>
+  <line x1="40" y1="40" x2="560" y2="40" stroke="#DFD4C2" stroke-width="1"/>
+  <line x1="40" y1="760" x2="560" y2="760" stroke="#DFD4C2" stroke-width="1"/>
+  
+  <g>
+    <!-- White shirt inner peek -->
+    <path d="M270 120 L300 190 L330 120 Z" fill="#FFFFFF" stroke="#D8CFBF"/>
+    <!-- Coat Body -->
+    <path d="M160 210 L240 120 L360 120 L440 210 L470 540 L460 740 L140 740 L130 540 Z" fill="url(#camelCashmere)"/>
+    
+    <!-- Sleeves -->
+    <path d="M160 210 L115 500 L125 700 L185 690 L175 480 Z" fill="#B68858"/>
+    <path d="M440 210 L485 500 L475 700 L415 690 L425 480 Z" fill="#AA7C4B"/>
+    
+    <!-- Generous Ulster Lapels -->
+    <path d="M240 120 L210 260 L180 250 L210 340 L340 520 L340 400 Z" fill="#D9AE81" stroke="#9E7245" stroke-width="1.5"/>
+    <path d="M360 120 L390 260 L420 250 L390 340 L340 520 L340 400 Z" fill="#BA8D5C" stroke="#9E7245" stroke-width="1.5"/>
+    
+    <!-- Double-Breasted Horn Buttons -->
+    <circle cx="270" cy="440" r="9" fill="#2A1D13" stroke="#D9B387" stroke-width="1.5"/>
+    <circle cx="335" cy="440" r="9" fill="#2A1D13" stroke="#D9B387" stroke-width="1.5"/>
+    <circle cx="270" cy="520" r="9" fill="#2A1D13" stroke="#D9B387" stroke-width="1.5"/>
+    <circle cx="335" cy="520" r="9" fill="#2A1D13" stroke="#D9B387" stroke-width="1.5"/>
+    <circle cx="270" cy="600" r="9" fill="#2A1D13" stroke="#D9B387" stroke-width="1.5"/>
+    <circle cx="335" cy="600" r="9" fill="#2A1D13" stroke="#D9B387" stroke-width="1.5"/>
+    
+    <!-- Slanted Welt Pockets -->
+    <rect x="170" y="550" width="85" height="14" rx="2" fill="#AF8151" stroke="#8B6236" stroke-width="1" transform="rotate(12 170 550)"/>
+    <rect x="345" y="565" width="85" height="14" rx="2" fill="#A47646" stroke="#8B6236" stroke-width="1" transform="rotate(-12 345 565)"/>
+  </g>
+  <text x="300" y="775" font-family="'Playfair Display', serif" font-size="12" font-weight="500" fill="#7C5D3B" text-anchor="middle" letter-spacing="4">PURE CASHMERE DOUBLE-BREASTED OVERCOAT - TOBACCO CAMEL</text>
+</svg>
